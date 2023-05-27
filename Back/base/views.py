@@ -6,9 +6,6 @@ from rest_framework import serializers
 from .models import Product
 from rest_framework.views import APIView
 from rest_framework import status
-from django.http import HttpResponse
-from django.conf import settings
-import os
 
 
 @api_view(['GET'])
