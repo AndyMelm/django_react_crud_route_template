@@ -9,6 +9,6 @@ urlpatterns = [
     path('register/', views.register),
     path('product/<pk>', views.ProductView.as_view()),
     path('product/', views.ProductView.as_view()),
-     path('product/image/<str:filename>/', views.get_product_image, name='get_product_image'),
+   
 
 ]
